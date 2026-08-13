@@ -1,0 +1,106 @@
+{
+  "run": {
+    "company_name": "测试股份",
+    "disclosure_regime": "A-share",
+    "accounting_basis": "Chinese GAAP",
+    "report_cutoff_date": "2026-04-30",
+    "main_analysis_period": "2021-2025 audited annual reports",
+    "skill_version": "v3.0.0",
+    "generated_at": "2026-08-12T20:00:00+08:00"
+  },
+  "disclosures": [],
+  "metrics": [
+    {
+      "metric_id": "M01",
+      "display_name": "净利率",
+      "original_name": "",
+      "classification": "calculated",
+      "formula": "net_profit / revenue",
+      "scope": "custom",
+      "period": "2025",
+      "currency": "CNY",
+      "unit": "%",
+      "source_chain": [],
+      "definition_fingerprint": "",
+      "cross_period_comparability": "",
+      "peer_comparability": "",
+      "reconciliation_status": "not_checked"
+    }
+  ],
+  "calculations": [
+    {
+      "calculation_id": "C01",
+      "input_metric_ids": ["M01"],
+      "formula": "unknown",
+      "period_alignment_rule": "",
+      "scope_compatibility_rule": "",
+      "output_metric_id": "M02",
+      "tolerance": 0.001,
+      "reconciliation_result": "fail",
+      "residual_difference": 1.2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL01",
+      "text": "管理层已经主动压缩低效人员，所以利润质量改善。",
+      "level": "hypothesis_requires_validation",
+      "evidence_ids": [],
+      "dependent_metric_ids": [],
+      "dependent_calculation_ids": [],
+      "allowed_wording_strength": "bounded",
+      "appears_in": ["judgment_panel"]
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "I01",
+      "management_question": "利润为什么变？",
+      "selected_module": "profitability",
+      "decision_chain": {
+        "judgment": "利润改善。"
+      },
+      "evidence_sufficiency": "insufficient",
+      "data_gaps": [],
+      "boundary": "",
+      "leading_indicators": [],
+      "falsifier": "",
+      "priority_action_ids": []
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "SC01",
+      "management_question": "利润率变化",
+      "driver": "",
+      "driver_to_result_rationale": "",
+      "input_basis": "",
+      "output_type": "sensitivity",
+      "action_implication": "",
+      "limitations": ""
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "A01",
+      "related_issue_id": "I01",
+      "proposed_action": "提升效率",
+      "expected_financial_mechanism": "",
+      "owner_type": "",
+      "leading_indicator": "",
+      "warning_threshold_logic": "",
+      "calibration_data_needed": "",
+      "risk_of_false_positive_or_negative": ""
+    }
+  ],
+  "quality": {
+    "credibility_score": 9.0,
+    "insight_score": 9.0,
+    "decision_value_score": 9.0,
+    "expression_visual_score": 9.0,
+    "blocking_failures": [],
+    "warnings": [],
+    "audit_status": "pass",
+    "delivery_decision": "deliver"
+  }
+}

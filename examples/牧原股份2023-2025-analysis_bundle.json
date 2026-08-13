@@ -1,0 +1,1644 @@
+{
+    "run":  {
+                "company_name":  "牧原食品股份有限公司（牧原股份，002714.SZ）",
+                "disclosure_regime":  "A股深交所主板信息披露",
+                "accounting_basis":  "中国企业会计准则；2023年至2025年年度财务报告均经毕马威华振会计师事务所审计并出具标准无保留意见",
+                "report_cutoff_date":  "2026-03-28",
+                "main_analysis_period":  "2023年-2025年年度报告",
+                "skill_version":  "dimanman-caiwufenxi v3.1.0",
+                "generated_at":  "2026-08-12 15:43:05"
+            },
+    "disclosures":  [
+                        {
+                            "source_id":  "S01",
+                            "file_or_url":  "示例来源：牧原股份2023年年度报告PDF（本地生成时请替换为实际文件路径或披露URL）",
+                            "disclosure_type":  "牧原股份2023年年度报告全文",
+                            "publication_date":  "2024-04-27",
+                            "reporting_period":  "2023年度",
+                            "location":  "第9-10页、第14-15页、第27-28页、第129页、第135-137页、第226-227页",
+                            "currency":  "CNY",
+                            "unit":  "元/亿元/%/万头/万吨/元每kg；bundle中金额统一折算为亿元",
+                            "extraction_method":  "PDF文本抽取并人工核对关键页"
+                        },
+                        {
+                            "source_id":  "S02",
+                            "file_or_url":  "示例来源：牧原股份2024年年度报告PDF；巨潮资讯finalpage/2025-03-20/1222845025.PDF（本地生成时请替换为实际文件路径或披露URL）",
+                            "disclosure_type":  "牧原股份2024年年度报告全文",
+                            "publication_date":  "2025-03-20",
+                            "reporting_period":  "2024年度",
+                            "location":  "第9页、第17-20页、第30页、第124页、第129-131页、第137页、第221页",
+                            "currency":  "CNY",
+                            "unit":  "元/亿元/%/万头/万吨/元每kg；bundle中金额统一折算为亿元",
+                            "extraction_method":  "PDF文本抽取并人工核对关键页"
+                        },
+                        {
+                            "source_id":  "S03",
+                            "file_or_url":  "示例来源：牧原股份2025年年度报告PDF（本地生成时请替换为实际文件路径或披露URL）",
+                            "disclosure_type":  "牧原股份2025年年度报告全文",
+                            "publication_date":  "2026-03-28",
+                            "reporting_period":  "2025年度",
+                            "location":  "第2页、第11页、第14-15页、第23页、第27页、第34-35页、第105页、第110-112页、第118页、第206-207页",
+                            "currency":  "CNY",
+                            "unit":  "元/亿元/%/万头/万吨/元每kg；bundle中金额统一折算为亿元",
+                            "extraction_method":  "PDF文本抽取并人工核对关键页"
+                        }
+                    ],
+    "metrics":  [
+                    {
+                        "metric_id":  "M_REV_2023",
+                        "display_name":  "营业收入",
+                        "original_name":  "营业收入",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  1108.607277144,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "营业收入|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NP_ATTR_2023",
+                        "display_name":  "归属于上市公司股东的净利润",
+                        "original_name":  "归属于上市公司股东的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  -42.6328082031,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的净利润|attributable|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NET_PROFIT_2023",
+                        "display_name":  "净利润",
+                        "original_name":  "净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  -41.6786898284,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "净利润|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DED_NP_2023",
+                        "display_name":  "扣非归母净利润",
+                        "original_name":  "归属于上市公司股东的扣除非经常性损益的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  -40.2626291948,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的扣除非经常性损益的净利润|attributable|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_OCF_2023",
+                        "display_name":  "经营活动产生的现金流量净额",
+                        "original_name":  "经营活动产生的现金流量净额",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  98.9281686372,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "经营活动产生的现金流量净额|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_HOG_SALES_2023",
+                        "display_name":  "销售生猪",
+                        "original_name":  "销售生猪/销售商品猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露；2025披露为销售商品猪，2023/2024披露为销售生猪",
+                        "scope":  "custom",
+                        "period":  "2023",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  6381.6,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "销售生猪/销售商品猪|custom|2023|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SLAUGHTER_2023",
+                        "display_name":  "屠宰生猪",
+                        "original_name":  "屠宰生猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "custom",
+                        "period":  "2023",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  1326.0,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "屠宰生猪|custom|2023|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_2023",
+                        "display_name":  "屠宰、肉食业务收入",
+                        "original_name":  "屠宰、肉食业务实现营业收入",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "segment",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  218.62,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务实现营业收入|segment|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_FULL_COST_2023",
+                        "display_name":  "生猪养殖完全成本",
+                        "original_name":  "全年生猪养殖完全成本",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露约数",
+                        "scope":  "custom",
+                        "period":  "2023",
+                        "currency":  "N/A",
+                        "unit":  "元/kg",
+                        "value":  15.0,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "全年生猪养殖完全成本|custom|2023|元/kg",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ASSET_LIAB_RATE_2023",
+                        "display_name":  "资产负债率",
+                        "original_name":  "资产负债率",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  62.11,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "资产负债率|consolidated|2023|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CASH_2023",
+                        "display_name":  "货币资金",
+                        "original_name":  "货币资金",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  194.2910626301,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "货币资金|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SHORT_DEBT_2023",
+                        "display_name":  "短期借款",
+                        "original_name":  "短期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  469.2902408471,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "短期借款|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_LONG_DEBT_2023",
+                        "display_name":  "长期借款",
+                        "original_name":  "长期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  98.6345483292,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "长期借款|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ONE_YEAR_NONCURRENT_2023",
+                        "display_name":  "一年内到期的非流动负债",
+                        "original_name":  "一年内到期的非流动负债",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  86.511873202,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "一年内到期的非流动负债|consolidated|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_SHARE_2023",
+                        "display_name":  "屠宰肉食收入占比",
+                        "original_name":  "屠宰、肉食业务收入/营业收入",
+                        "classification":  "calculated",
+                        "formula":  "屠宰肉食收入/营业收入*100",
+                        "scope":  "segment",
+                        "period":  "2023",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  19.720238582883024,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务收入/营业收入|segment|2023|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DEBT_PROXY_2023",
+                        "display_name":  "主要债务压力代理",
+                        "original_name":  "短期借款+一年内到期非流动负债+长期借款",
+                        "classification":  "calculated",
+                        "formula":  "短期借款+一年内到期非流动负债+长期借款",
+                        "scope":  "custom",
+                        "period":  "2023",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  654.4366623783001,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "短期借款+一年内到期非流动负债+长期借款|custom|2023|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  "不等同于评级口径全部有息负债。"
+                    },
+                    {
+                        "metric_id":  "M_REV_2024",
+                        "display_name":  "营业收入",
+                        "original_name":  "营业收入",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  1379.4689207687,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "营业收入|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NP_ATTR_2024",
+                        "display_name":  "归属于上市公司股东的净利润",
+                        "original_name":  "归属于上市公司股东的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  178.8126048527,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的净利润|attributable|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NET_PROFIT_2024",
+                        "display_name":  "净利润",
+                        "original_name":  "净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  189.2504490425,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "净利润|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DED_NP_2024",
+                        "display_name":  "扣非归母净利润",
+                        "original_name":  "归属于上市公司股东的扣除非经常性损益的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  187.4685567139,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的扣除非经常性损益的净利润|attributable|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_OCF_2024",
+                        "display_name":  "经营活动产生的现金流量净额",
+                        "original_name":  "经营活动产生的现金流量净额",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  375.4306621449,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "经营活动产生的现金流量净额|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_HOG_SALES_2024",
+                        "display_name":  "销售生猪",
+                        "original_name":  "销售生猪/销售商品猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露；2025披露为销售商品猪，2023/2024披露为销售生猪",
+                        "scope":  "custom",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  7160.2,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "销售生猪/销售商品猪|custom|2024|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SLAUGHTER_2024",
+                        "display_name":  "屠宰生猪",
+                        "original_name":  "屠宰生猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "custom",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  1252.44,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "屠宰生猪|custom|2024|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_2024",
+                        "display_name":  "屠宰、肉食业务收入",
+                        "original_name":  "屠宰、肉食业务实现营业收入",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "segment",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  242.74,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务实现营业收入|segment|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_FULL_COST_2024",
+                        "display_name":  "生猪养殖完全成本",
+                        "original_name":  "全年生猪养殖完全成本",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露约数",
+                        "scope":  "custom",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "元/kg",
+                        "value":  14.0,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "全年生猪养殖完全成本|custom|2024|元/kg",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ASSET_LIAB_RATE_2024",
+                        "display_name":  "资产负债率",
+                        "original_name":  "资产负债率",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  58.68,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "资产负债率|consolidated|2024|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CASH_2024",
+                        "display_name":  "货币资金",
+                        "original_name":  "货币资金",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  169.51642855,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "货币资金|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SHORT_DEBT_2024",
+                        "display_name":  "短期借款",
+                        "original_name":  "短期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  452.5766912509,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "短期借款|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_LONG_DEBT_2024",
+                        "display_name":  "长期借款",
+                        "original_name":  "长期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  87.9745375682,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "长期借款|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ONE_YEAR_NONCURRENT_2024",
+                        "display_name":  "一年内到期的非流动负债",
+                        "original_name":  "一年内到期的非流动负债",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  82.0457385838,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "一年内到期的非流动负债|consolidated|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_SHARE_2024",
+                        "display_name":  "屠宰肉食收入占比",
+                        "original_name":  "屠宰、肉食业务收入/营业收入",
+                        "classification":  "calculated",
+                        "formula":  "屠宰肉食收入/营业收入*100",
+                        "scope":  "segment",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  17.596626958781698,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务收入/营业收入|segment|2024|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DEBT_PROXY_2024",
+                        "display_name":  "主要债务压力代理",
+                        "original_name":  "短期借款+一年内到期非流动负债+长期借款",
+                        "classification":  "calculated",
+                        "formula":  "短期借款+一年内到期非流动负债+长期借款",
+                        "scope":  "custom",
+                        "period":  "2024",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  622.5969674029001,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "短期借款+一年内到期非流动负债+长期借款|custom|2024|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  "不等同于评级口径全部有息负债。"
+                    },
+                    {
+                        "metric_id":  "M_REV_2025",
+                        "display_name":  "营业收入",
+                        "original_name":  "营业收入",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  1441.4496537168,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "营业收入|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NP_ATTR_2025",
+                        "display_name":  "归属于上市公司股东的净利润",
+                        "original_name":  "归属于上市公司股东的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  154.8689125404,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的净利润|attributable|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_NET_PROFIT_2025",
+                        "display_name":  "净利润",
+                        "original_name":  "净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  158.1181754345,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "净利润|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DED_NP_2025",
+                        "display_name":  "扣非归母净利润",
+                        "original_name":  "归属于上市公司股东的扣除非经常性损益的净利润",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "attributable",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  159.883924839,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "归属于上市公司股东的扣除非经常性损益的净利润|attributable|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_OCF_2025",
+                        "display_name":  "经营活动产生的现金流量净额",
+                        "original_name":  "经营活动产生的现金流量净额",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  300.5618691447,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "经营活动产生的现金流量净额|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_HOG_SALES_2025",
+                        "display_name":  "销售生猪",
+                        "original_name":  "销售生猪/销售商品猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露；2025披露为销售商品猪，2023/2024披露为销售生猪",
+                        "scope":  "custom",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  7798.1,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "销售生猪/销售商品猪|custom|2025|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SLAUGHTER_2025",
+                        "display_name":  "屠宰生猪",
+                        "original_name":  "屠宰生猪",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "custom",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "万头",
+                        "value":  2866.3,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "屠宰生猪|custom|2025|万头",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_2025",
+                        "display_name":  "屠宰、肉食业务收入",
+                        "original_name":  "屠宰、肉食业务实现营业收入",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露",
+                        "scope":  "segment",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  452.28,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务实现营业收入|segment|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_FULL_COST_2025",
+                        "display_name":  "生猪养殖完全成本",
+                        "original_name":  "全年生猪养殖完全成本",
+                        "classification":  "custom_kpi",
+                        "formula":  "公司披露约数",
+                        "scope":  "custom",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "元/kg",
+                        "value":  12.0,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "全年生猪养殖完全成本|custom|2025|元/kg",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ASSET_LIAB_RATE_2025",
+                        "display_name":  "资产负债率",
+                        "original_name":  "资产负债率",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  54.15,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "资产负债率|consolidated|2025|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CASH_2025",
+                        "display_name":  "货币资金",
+                        "original_name":  "货币资金",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  138.6239761888,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "货币资金|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_SHORT_DEBT_2025",
+                        "display_name":  "短期借款",
+                        "original_name":  "短期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  411.553766693,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "短期借款|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_LONG_DEBT_2025",
+                        "display_name":  "长期借款",
+                        "original_name":  "长期借款",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  77.3341707316,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "长期借款|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_ONE_YEAR_NONCURRENT_2025",
+                        "display_name":  "一年内到期的非流动负债",
+                        "original_name":  "一年内到期的非流动负债",
+                        "classification":  "statutory",
+                        "formula":  "公司披露",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  74.8555093375,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "一年内到期的非流动负债|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_MEAT_REV_SHARE_2025",
+                        "display_name":  "屠宰肉食收入占比",
+                        "original_name":  "屠宰、肉食业务收入/营业收入",
+                        "classification":  "calculated",
+                        "formula":  "屠宰肉食收入/营业收入*100",
+                        "scope":  "segment",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  31.376746238329524,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "屠宰、肉食业务收入/营业收入|segment|2025|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_DEBT_PROXY_2025",
+                        "display_name":  "主要债务压力代理",
+                        "original_name":  "短期借款+一年内到期非流动负债+长期借款",
+                        "classification":  "calculated",
+                        "formula":  "短期借款+一年内到期非流动负债+长期借款",
+                        "scope":  "custom",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  563.7434467621,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "短期借款+一年内到期非流动负债+长期借款|custom|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  "不等同于评级口径全部有息负债。"
+                    },
+                    {
+                        "metric_id":  "M_REV_YOY_2024",
+                        "display_name":  "营业收入同比",
+                        "original_name":  "营业收入同比",
+                        "classification":  "calculated",
+                        "formula":  "M_REV_2024/M_REV_2023-1",
+                        "scope":  "consolidated",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  24.432605595237945,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "营业收入同比|consolidated|2024|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_OCF_TO_NP_2024",
+                        "display_name":  "经营现金流/归母净利润",
+                        "original_name":  "经营现金流/归母净利润",
+                        "classification":  "calculated",
+                        "formula":  "M_OCF_2024/M_NP_ATTR_2024",
+                        "scope":  "custom",
+                        "period":  "2024",
+                        "currency":  "N/A",
+                        "unit":  "倍",
+                        "value":  2.099576047528459,
+                        "source_chain":  [
+                                             "S02"
+                                         ],
+                        "definition_fingerprint":  "经营现金流/归母净利润|custom|2024|倍",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_REV_YOY_2025",
+                        "display_name":  "营业收入同比",
+                        "original_name":  "营业收入同比",
+                        "classification":  "calculated",
+                        "formula":  "M_REV_2025/M_REV_2024-1",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "%",
+                        "value":  4.493086579548433,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "营业收入同比|consolidated|2025|%",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_OCF_TO_NP_2025",
+                        "display_name":  "经营现金流/归母净利润",
+                        "original_name":  "经营现金流/归母净利润",
+                        "classification":  "calculated",
+                        "formula":  "M_OCF_2025/M_NP_ATTR_2025",
+                        "scope":  "custom",
+                        "period":  "2025",
+                        "currency":  "N/A",
+                        "unit":  "倍",
+                        "value":  1.9407501751928016,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "经营现金流/归母净利润|custom|2025|倍",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_净利润",
+                        "display_name":  "净利润",
+                        "original_name":  "净利润",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  158.1181754345,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "净利润|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_折旧摊销",
+                        "display_name":  "折旧摊销",
+                        "original_name":  "折旧摊销",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  153.3851001315,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "折旧摊销|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_财务费用",
+                        "display_name":  "财务费用",
+                        "original_name":  "财务费用",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  26.8079781038,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "财务费用|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_资产处置_报废等",
+                        "display_name":  "资产处置/报废等",
+                        "original_name":  "资产处置/报废等",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  6.332697756500001,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "资产处置/报废等|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_存货释放",
+                        "display_name":  "存货释放",
+                        "original_name":  "存货释放",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  47.2031380818,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "存货释放|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_应收减少",
+                        "display_name":  "应收减少",
+                        "original_name":  "应收减少",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  11.6169422219,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "应收减少|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_应付减少",
+                        "display_name":  "应付减少",
+                        "original_name":  "应付减少",
+                        "classification":  "statutory",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  -104.1653946722,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "应付减少|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "matched_to_disclosure",
+                        "note":  ""
+                    },
+                    {
+                        "metric_id":  "M_CF_BRIDGE_2025_其他",
+                        "display_name":  "其他",
+                        "original_name":  "其他",
+                        "classification":  "calculated",
+                        "formula":  "现金流量表补充资料披露或桥接差额",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "value":  1.2632320869000182,
+                        "source_chain":  [
+                                             "S03"
+                                         ],
+                        "definition_fingerprint":  "其他|consolidated|2025|亿元",
+                        "cross_period_comparability":  "2023年至2025年均取年度报告披露的合并口径；2025年政府补助会计政策变更追溯调整2024营业成本/其他收益，不影响收入、净利润、经营现金流和资产负债表主指标。",
+                        "peer_comparability":  "本报告未做同行排名；行业口径仅用于理解周期，不输出领先或落后判断。",
+                        "reconciliation_status":  "calculated_from_disclosed_metrics",
+                        "note":  ""
+                    }
+                ],
+    "calculations":  [
+                         {
+                             "calculation_id":  "C_REV_YOY_2024",
+                             "input_metric_ids":  [
+                                                      "M_REV_2024",
+                                                      "M_REV_2023"
+                                                  ],
+                             "formula":  "2024收入/2023收入-1",
+                             "period_alignment_rule":  "年度合并口径",
+                             "scope_compatibility_rule":  "同一披露口径",
+                             "output_metric_id":  "M_REV_YOY_2024",
+                             "tolerance":  "0.1pct",
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         },
+                         {
+                             "calculation_id":  "C_REV_YOY_2025",
+                             "input_metric_ids":  [
+                                                      "M_REV_2025",
+                                                      "M_REV_2024"
+                                                  ],
+                             "formula":  "2025收入/2024收入-1",
+                             "period_alignment_rule":  "年度合并口径",
+                             "scope_compatibility_rule":  "同一披露口径",
+                             "output_metric_id":  "M_REV_YOY_2025",
+                             "tolerance":  "0.1pct",
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         },
+                         {
+                             "calculation_id":  "C_OCF_TO_NP_2025",
+                             "input_metric_ids":  [
+                                                      "M_OCF_2025",
+                                                      "M_NP_ATTR_2025"
+                                                  ],
+                             "formula":  "经营现金流/归母净利润",
+                             "period_alignment_rule":  "年度合并口径",
+                             "scope_compatibility_rule":  "现金流为合并口径、净利润为归母口径，仅作为利润质量代理",
+                             "output_metric_id":  "M_OCF_TO_NP_2025",
+                             "tolerance":  "0.01",
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         },
+                         {
+                             "calculation_id":  "C_MEAT_SHARE_2025",
+                             "input_metric_ids":  [
+                                                      "M_MEAT_REV_2025",
+                                                      "M_REV_2025"
+                                                  ],
+                             "formula":  "屠宰肉食收入/营业收入",
+                             "period_alignment_rule":  "年度",
+                             "scope_compatibility_rule":  "分部收入与合并收入可作占比展示",
+                             "output_metric_id":  "M_MEAT_REV_SHARE_2025",
+                             "tolerance":  "0.1pct",
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         },
+                         {
+                             "calculation_id":  "C_CF_BRIDGE_2025",
+                             "input_metric_ids":  [
+                                                      "M_NET_PROFIT_2025",
+                                                      "M_CF_BRIDGE_2025_折旧摊销",
+                                                      "M_CF_BRIDGE_2025_存货释放",
+                                                      "M_CF_BRIDGE_2025_应付减少"
+                                                  ],
+                             "formula":  "净利润+非现金/财务费用/营运资本等调节=经营活动现金流",
+                             "period_alignment_rule":  "2025年度现金流量表补充资料",
+                             "scope_compatibility_rule":  "合并口径",
+                             "output_metric_id":  "M_OCF_2025",
+                             "tolerance":  "0.01亿元",
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         }
+                     ],
+    "claims":  [
+                   {
+                       "claim_id":  "CLM_001",
+                       "text":  "牧原股份2024年从亏损修复为高盈利，2025年猪价下降后归母净利润回落，但经营现金流仍明显高于归母净利润。",
+                       "level":  "supported_inference",
+                       "evidence_ids":  [
+                                            "S01",
+                                            "S02",
+                                            "S03"
+                                        ],
+                       "dependent_metric_ids":  [
+                                                    "M_NP_ATTR_2023",
+                                                    "M_NP_ATTR_2024",
+                                                    "M_NP_ATTR_2025",
+                                                    "M_OCF_2025"
+                                                ],
+                       "dependent_calculation_ids":  [
+                                                         "C_OCF_TO_NP_2025"
+                                                     ],
+                       "allowed_wording_strength":  "可以写周期修复和现金质量较好，但不得写成不受猪价周期影响。",
+                       "appears_in":  [
+                                          "judgment_panel",
+                                          "body"
+                                      ]
+                   },
+                   {
+                       "claim_id":  "CLM_002",
+                       "text":  "成本改善是牧原2024至2025年最重要的经营抓手，生猪养殖完全成本由约15元/kg降至约12元/kg。",
+                       "level":  "supported_inference",
+                       "evidence_ids":  [
+                                            "S01",
+                                            "S02",
+                                            "S03"
+                                        ],
+                       "dependent_metric_ids":  [
+                                                    "M_FULL_COST_2023",
+                                                    "M_FULL_COST_2024",
+                                                    "M_FULL_COST_2025"
+                                                ],
+                       "dependent_calculation_ids":  [
+
+                                                     ],
+                       "allowed_wording_strength":  "可以写成本抓手和抗周期能力，不能写护城河永久成立。",
+                       "appears_in":  [
+                                          "judgment_panel",
+                                          "body"
+                                      ]
+                   },
+                   {
+                       "claim_id":  "CLM_003",
+                       "text":  "2025年资产负债率从58.68%降至54.15%，但短期借款和一年内到期非流动负债仍是主要流动性边界。",
+                       "level":  "supported_inference",
+                       "evidence_ids":  [
+                                            "S02",
+                                            "S03"
+                                        ],
+                       "dependent_metric_ids":  [
+                                                    "M_ASSET_LIAB_RATE_2024",
+                                                    "M_ASSET_LIAB_RATE_2025",
+                                                    "M_SHORT_DEBT_2025",
+                                                    "M_ONE_YEAR_NONCURRENT_2025",
+                                                    "M_CASH_2025"
+                                                ],
+                       "dependent_calculation_ids":  [
+
+                                                     ],
+                       "allowed_wording_strength":  "可以写财务结构改善和边界，不能写债务压力已经消失。",
+                       "appears_in":  [
+                                          "judgment_panel",
+                                          "body"
+                                      ]
+                   },
+                   {
+                       "claim_id":  "CLM_004",
+                       "text":  "屠宰肉食业务在2025年收入跃升并首次年度盈利，说明第二曲线开始从消化内部生猪转为独立经营贡献。",
+                       "level":  "supported_inference",
+                       "evidence_ids":  [
+                                            "S02",
+                                            "S03"
+                                        ],
+                       "dependent_metric_ids":  [
+                                                    "M_MEAT_REV_2024",
+                                                    "M_MEAT_REV_2025",
+                                                    "M_SLAUGHTER_2025",
+                                                    "M_MEAT_REV_SHARE_2025"
+                                                ],
+                       "dependent_calculation_ids":  [
+                                                         "C_MEAT_SHARE_2025"
+                                                     ],
+                       "allowed_wording_strength":  "可以写开始贡献，不能写已完全成熟。",
+                       "appears_in":  [
+                                          "judgment_panel",
+                                          "body"
+                                      ]
+                   }
+               ],
+    "issues":  [
+                   {
+                       "issue_id":  "ISSUE_001",
+                       "management_question":  "周期修复后，牧原的利润质量是否足够支持继续去杠杆？",
+                       "selected_module":  "规模-利润-现金转化",
+                       "decision_chain":  {
+                                              "judgment":  "2025利润下降但经营现金流仍为300.56亿元，现金质量比利润表更稳。",
+                                              "key_evidence":  [
+                                                                   "2025归母净利润154.87亿元，经营现金流300.56亿元，约为归母净利润1.94倍。",
+                                                                   "2025筹资活动现金流净额-228.78亿元，负债总额较年初下降约171.13亿元。"
+                                                               ],
+                                              "financial_transmission_mechanism":  "猪价和成本先进入利润表，折旧摊销与营运资本变化再决定利润能否转化为现金。",
+                                              "attribution":  "2025净利润下滑主要由公司披露的生猪价格下降驱动。",
+                                              "operating_or_risk_boundary":  "若经营现金流/归母净利润跌破1且债务不再下降，去杠杆质量将弱化。",
+                                              "priority_action":  "把经营目标拆成猪价敏感性、完全成本、经营现金流、债务净偿还四个指标。",
+                                              "leading_indicator_and_falsifier":  "反证指标是经营现金流/归母净利润连续两个年度低于1，且资产负债率不再下降。",
+                                              "data_gap":  "公开披露缺少月度现金回款、采购付款期限和债务到期结构明细。",
+                                              "management_statement":  "本示例主要使用年度报告中的管理层讨论与经营情况说明，未单独纳入业绩说明会或路演资料。",
+                                              "statement_verification":  "本问题仅基于年度报告财务披露和经营情况说明验证；公开交流资料缺口保留。"
+                                          },
+                       "evidence_sufficiency":  "年度主表和现金流补充资料充分，内部债务期限表不足。",
+                       "data_gaps":  [
+                                         "月度回款",
+                                         "供应商账期",
+                                         "银行授信剩余额度结构"
+                                     ],
+                       "boundary":  "经营现金流/归母净利润与资产负债率必须同时看。",
+                       "leading_indicators":  [
+                                                  "经营现金流/归母净利润",
+                                                  "筹资活动现金流净额",
+                                                  "资产负债率"
+                                              ],
+                       "falsifier":  "经营现金流低于归母净利润且短债压力上升。",
+                       "priority_action_ids":  [
+                                                   "ACT_001"
+                                               ]
+                   },
+                   {
+                       "issue_id":  "ISSUE_002",
+                       "management_question":  "利润恢复靠猪价，还是靠牧原自身成本曲线下移？",
+                       "selected_module":  "价格-销量-成本",
+                       "decision_chain":  {
+                                              "judgment":  "2025完全成本降至约12元/kg，显示自身成本曲线下移已经成为抗周期关键。",
+                                              "key_evidence":  [
+                                                                   "2023全年平均商品猪完全成本约15元/kg左右。",
+                                                                   "2024全年生猪养殖完全成本约14元/kg左右，年底已降至13元/kg左右。",
+                                                                   "2025全年生猪养殖完全成本约12元/kg。"
+                                                               ],
+                                              "financial_transmission_mechanism":  "完全成本每下降1元/kg，会通过单位毛利放大到千万头级出栏量。",
+                                              "attribution":  "公司披露成本下降来自生产成绩改善、饲料价格下降、疫病防控、营养配方、种猪育种、智能化与信息化等。",
+                                              "operating_or_risk_boundary":  "完全成本是最重要边界，但公开披露为年度约数，不能替代内部场线成本分布。",
+                                              "priority_action":  "建立场区、品种、饲料配方三层成本分布。",
+                                              "leading_indicator_and_falsifier":  "反证指标是完全成本回升到13元/kg以上，同时生猪价格仍下行。",
+                                              "data_gap":  "缺少场区成本分位数、死亡率、料肉比、疫病损失和饲料锁价数据。",
+                                              "management_statement":  "本示例主要使用年度报告中的管理层讨论与经营情况说明，未单独纳入业绩说明会或路演资料。",
+                                              "statement_verification":  "本问题仅基于年度报告财务披露和经营情况说明验证；公开交流资料缺口保留。"
+                                          },
+                       "evidence_sufficiency":  "公司披露成本趋势明确，但拆分驱动不足。",
+                       "data_gaps":  [
+                                         "料肉比",
+                                         "成活率",
+                                         "场区成本分位数"
+                                     ],
+                       "boundary":  "完全成本不能只看均值，还要看低成本能否覆盖大多数产能。",
+                       "leading_indicators":  [
+                                                  "完全成本",
+                                                  "料肉比",
+                                                  "成活率",
+                                                  "饲料价格"
+                                              ],
+                       "falsifier":  "成本回升且猪价下行时，盈利弹性会快速减弱。",
+                       "priority_action_ids":  [
+                                                   "ACT_002"
+                                               ]
+                   },
+                   {
+                       "issue_id":  "ISSUE_003",
+                       "management_question":  "屠宰肉食业务是否已经从拖累项变成第二增长曲线？",
+                       "selected_module":  "业务结构与渠道质量",
+                       "decision_chain":  {
+                                              "judgment":  "2025屠宰肉食业务首次年度盈利，收入占比升至约31.4%，已经从内部消化产能转向独立贡献的早期阶段。",
+                                              "key_evidence":  [
+                                                                   "2023屠宰肉食业务收入218.62亿元，2024为242.74亿元，2025为452.28亿元。",
+                                                                   "2025屠宰生猪2866.3万头，同比增长128.9%。"
+                                                               ],
+                                              "financial_transmission_mechanism":  "屠宰业务通过提高自有猪肉深加工和渠道销售比例，改变单纯卖猪的周期暴露。",
+                                              "attribution":  "公司持续构建全国猪肉销售网络，2025年末在20个省级行政区设立超过70个销售分支。",
+                                              "operating_or_risk_boundary":  "第二曲线成立的边界不是收入高增，而是全年、淡季、渠道和产品结构都能稳定盈利。",
+                                              "priority_action":  "按客户类型、产品结构、区域分支、单吨毛利和回款周期拆开考核。",
+                                              "leading_indicator_and_falsifier":  "反证指标是屠宰量继续增长但单吨毛利或经营现金贡献转弱。",
+                                              "data_gap":  "公开披露缺少屠宰分部利润、单吨毛利、渠道结构和回款周期。",
+                                              "management_statement":  "本示例主要使用年度报告中的管理层讨论与经营情况说明，未单独纳入业绩说明会或路演资料。",
+                                              "statement_verification":  "本问题仅基于年度报告财务披露和经营情况说明验证；公开交流资料缺口保留。"
+                                          },
+                       "evidence_sufficiency":  "收入、屠宰量和盈利状态披露充分，分部利润和渠道质量不足。",
+                       "data_gaps":  [
+                                         "单吨毛利",
+                                         "渠道结构",
+                                         "屠宰业务经营现金流"
+                                     ],
+                       "boundary":  "屠宰业务不能只看产能利用率，要看利润和现金。",
+                       "leading_indicators":  [
+                                                  "屠宰量",
+                                                  "屠宰肉食收入占比",
+                                                  "单吨毛利"
+                                              ],
+                       "falsifier":  "屠宰业务收入增长但利润转负或现金回款变慢。",
+                       "priority_action_ids":  [
+                                                   "ACT_003"
+                                               ]
+                   },
+                   {
+                       "issue_id":  "ISSUE_004",
+                       "management_question":  "2025降负债后，下一阶段最大的财务边界是什么？",
+                       "selected_module":  "债务与流动性边界",
+                       "decision_chain":  {
+                                              "judgment":  "负债率下降是真改善，但现金对短期债务覆盖仍不宽。",
+                                              "key_evidence":  [
+                                                                   "2025资产负债率54.15%，较2024年末下降4.53个百分点。",
+                                                                   "2025短期借款411.55亿元，一年内到期非流动负债74.86亿元，货币资金138.62亿元。",
+                                                                   "2025流动比率0.78，仍低于1。"
+                                                               ],
+                                              "financial_transmission_mechanism":  "周期行业负债风险是在猪价下行、资本开支、分红回购和债务到期同时出现时压缩现金余地。",
+                                              "attribution":  "公司2025年经营现金流为正并偿还债务，同时实施分红和回购，现金分配开始多目标并行。",
+                                              "operating_or_risk_boundary":  "资产负债率下降不等于流动性充裕。",
+                                              "priority_action":  "将资本开支、分红回购、债务到期和猪价低迷情景放在同一张现金优先级表中。",
+                                              "leading_indicator_and_falsifier":  "反证指标是猪价低迷时货币资金继续下降、短期借款回升或流动比率回落。",
+                                              "data_gap":  "公开披露缺少债务到期月度分布、授信未使用额度和分红回购压力测试。",
+                                              "management_statement":  "本示例主要使用年度报告中的管理层讨论与经营情况说明，未单独纳入业绩说明会或路演资料。",
+                                              "statement_verification":  "本问题仅基于年度报告财务披露和经营情况说明验证；公开交流资料缺口保留。"
+                                          },
+                       "evidence_sufficiency":  "债务主表充分，现金压力测试内部数据不足。",
+                       "data_gaps":  [
+                                         "债务到期月度分布",
+                                         "未使用授信",
+                                         "资本开支计划"
+                                     ],
+                       "boundary":  "资产负债率改善不等于流动性充裕。",
+                       "leading_indicators":  [
+                                                  "资产负债率",
+                                                  "流动比率",
+                                                  "货币资金",
+                                                  "短期借款"
+                                              ],
+                       "falsifier":  "流动比率回落且短期借款重新上升。",
+                       "priority_action_ids":  [
+                                                   "ACT_004"
+                                               ]
+                   }
+               ],
+    "scenarios":  [
+                      {
+                          "scenario_id":  "SCN_001",
+                          "management_question":  "低猪价周期下，什么会推翻成本改善足以支撑去杠杆的判断？",
+                          "driver":  "生猪价格、完全成本、经营现金流/归母净利润、短期债务覆盖",
+                          "driver_to_result_rationale":  "猪价下行先压利润，完全成本决定利润底线，经营现金流决定偿债和资本分配能力。",
+                          "input_basis":  "2025完全成本约12元/kg，经营现金流300.56亿元，资产负债率54.15%。",
+                          "output_type":  "boundary_test",
+                          "action_implication":  "完全成本回升且现金转化走弱时，优先压缩非刚性支出并重估分红回购节奏。",
+                          "limitations":  "公开披露缺少月度猪价、场区成本分布和债务到期月度表，因此不输出精确阈值。"
+                      }
+                  ],
+    "actions":  [
+                    {
+                        "action_id":  "ACT_001",
+                        "related_issue_id":  "ISSUE_001",
+                        "proposed_action":  "建立年度与季度利润到现金复盘表。",
+                        "expected_financial_mechanism":  "把周期利润转成可分配、可偿债现金。",
+                        "owner_type":  "CFO/经营财务/供应链负责人",
+                        "leading_indicator":  "经营现金流/归母净利润、筹资活动现金流净额、资产负债率",
+                        "warning_threshold_logic":  "经营现金流/归母净利润低于1或筹资净流出转弱时触发复盘。",
+                        "calibration_data_needed":  "月度回款、供应商账期、债务到期表。",
+                        "risk_of_false_positive_or_negative":  "猪价季节性和集中付款会造成季度波动，应看滚动四季度。"
+                    },
+                    {
+                        "action_id":  "ACT_002",
+                        "related_issue_id":  "ISSUE_002",
+                        "proposed_action":  "将完全成本拆成场区成本分位、饲料成本、成活率、疾病损失和人工效率。",
+                        "expected_financial_mechanism":  "让成本下降从平均数变成可复制的经营能力。",
+                        "owner_type":  "养殖业务负责人/生产管理/财务BP",
+                        "leading_indicator":  "完全成本、料肉比、成活率、饲料原料价格",
+                        "warning_threshold_logic":  "完全成本回升至13元/kg以上且猪价下行时，暂停扩张性支出。",
+                        "calibration_data_needed":  "场区成本明细、猪群健康指标、饲料采购锁价。",
+                        "risk_of_false_positive_or_negative":  "饲料价格外部波动可能掩盖生产效率真实变化。"
+                    },
+                    {
+                        "action_id":  "ACT_003",
+                        "related_issue_id":  "ISSUE_003",
+                        "proposed_action":  "将屠宰肉食业务从产能利用率考核升级为产品、渠道、区域、客户和现金回款考核。",
+                        "expected_financial_mechanism":  "避免用低毛利放量掩盖渠道质量问题。",
+                        "owner_type":  "屠宰肉食负责人/销售负责人/CFO",
+                        "leading_indicator":  "单吨毛利、渠道回款天数、产能利用率、淡季盈利",
+                        "warning_threshold_logic":  "收入增长但单吨毛利下降或回款拉长时触发渠道复盘。",
+                        "calibration_data_needed":  "客户类型、产品结构、区域分支损益。",
+                        "risk_of_false_positive_or_negative":  "新业务爬坡期费用前置，需区分战略投入和长期亏损。"
+                    },
+                    {
+                        "action_id":  "ACT_004",
+                        "related_issue_id":  "ISSUE_004",
+                        "proposed_action":  "建立现金优先级表，先覆盖债务到期和生产安全，再决定资本开支、分红回购与海外投入。",
+                        "expected_financial_mechanism":  "降低低价周期中的流动性挤压风险。",
+                        "owner_type":  "董事会/CFO/资金负责人",
+                        "leading_indicator":  "流动比率、现金短债覆盖率、短期借款、一年内到期债务",
+                        "warning_threshold_logic":  "流动比率回落或短债上升时，收紧非刚性现金支出。",
+                        "calibration_data_needed":  "债务到期月度表、未使用授信、资本开支排期。",
+                        "risk_of_false_positive_or_negative":  "短期借款续作能力受银行授信影响，公开报表只能观察结果。"
+                    }
+                ],
+    "quality":  {
+                    "credibility_score":  8.8,
+                    "insight_score":  8.5,
+                    "decision_value_score":  8.7,
+                    "expression_visual_score":  8.6,
+                    "blocking_failures":  [
+
+                                          ],
+                    "warnings":  [
+                                     "2023/2024披露销售生猪含商品猪、仔猪、种猪，2025披露为销售商品猪，趋势解读已标注口径差异。",
+                                     "债务压力使用短期借款+一年内到期非流动负债+长期借款作为代理，不等同于评级口径全部债务。"
+                                 ],
+                    "audit_status":  "pass",
+                    "delivery_decision":  "deliver"
+                },
+    "management_statements":  [
+
+                              ]
+}

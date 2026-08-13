@@ -1,0 +1,209 @@
+{
+    "run":  {
+                "company_name":  "测试股份",
+                "security_ids":  [
+                                     "000000.SZ"
+                                 ],
+                "disclosure_regime":  "A-share",
+                "accounting_basis":  "Chinese GAAP",
+                "report_cutoff_date":  "2026-04-30",
+                "main_analysis_period":  "2021-2025 audited annual reports",
+                "interim_update_period":  null,
+                "skill_version":  "v3.1.0",
+                "generated_at":  "2026-08-12T20:00:00+08:00"
+            },
+    "disclosures":  [
+                        {
+                            "source_id":  "S01",
+                            "file_or_url":  "测试股份2025年年度报告.pdf",
+                            "disclosure_type":  "annual_report",
+                            "publication_date":  "2026-04-30",
+                            "reporting_period":  "2025",
+                            "location":  "财务报表附注-营业收入和营业成本",
+                            "currency":  "CNY",
+                            "unit":  "亿元",
+                            "extraction_method":  "manual_table_extract",
+                            "reliability_notes":  "audited annual report"
+                        }
+                    ],
+    "metrics":  [
+                    {
+                        "metric_id":  "M01",
+                        "display_name":  "营业收入",
+                        "original_name":  "营业收入",
+                        "classification":  "statutory",
+                        "numerator":  null,
+                        "denominator":  null,
+                        "formula":  "disclosed",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "exchange_basis":  null,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "statutory:consolidated:operating_revenue:CNY:annual",
+                        "cross_period_comparability":  "A",
+                        "peer_comparability":  "A",
+                        "reconciliation_status":  "reconciled"
+                    },
+                    {
+                        "metric_id":  "M02",
+                        "display_name":  "经营活动现金流量净额",
+                        "original_name":  "经营活动产生的现金流量净额",
+                        "classification":  "statutory",
+                        "numerator":  null,
+                        "denominator":  null,
+                        "formula":  "disclosed",
+                        "scope":  "consolidated",
+                        "period":  "2025",
+                        "currency":  "CNY",
+                        "unit":  "亿元",
+                        "exchange_basis":  null,
+                        "source_chain":  [
+                                             "S01"
+                                         ],
+                        "definition_fingerprint":  "statutory:consolidated:operating_cash_flow:CNY:annual",
+                        "cross_period_comparability":  "A",
+                        "peer_comparability":  "A",
+                        "reconciliation_status":  "reconciled"
+                    }
+                ],
+    "calculations":  [
+                         {
+                             "calculation_id":  "C01",
+                             "input_metric_ids":  [
+                                                      "M01",
+                                                      "M02"
+                                                  ],
+                             "formula":  "M02 / M01",
+                             "period_alignment_rule":  "same fiscal year",
+                             "scope_compatibility_rule":  "both consolidated",
+                             "output_metric_id":  "M03",
+                             "tolerance":  0.001,
+                             "reconciliation_result":  "pass",
+                             "residual_difference":  0
+                         }
+                     ],
+    "claims":  [
+                   {
+                       "claim_id":  "CL01",
+                       "text":  "经营现金流对收入的覆盖仍是管理层需要优先监控的边界。",
+                       "level":  "supported_inference",
+                       "evidence_ids":  [
+                                            "S01"
+                                        ],
+                       "dependent_metric_ids":  [
+                                                    "M01",
+                                                    "M02"
+                                                ],
+                       "dependent_calculation_ids":  [
+                                                         "C01"
+                                                     ],
+                       "allowed_wording_strength":  "bounded",
+                       "risk_of_overstatement":  "low",
+                       "appears_in":  [
+                                          "judgment_panel",
+                                          "body"
+                                      ]
+                   }
+               ],
+    "issues":  [
+                   {
+                       "issue_id":  "I01",
+                       "management_question":  "利润是否能转化为经营现金流？",
+                       "selected_module":  "profit_to_cash",
+                       "decision_chain":  {
+                                              "judgment":  "现金转化是当前管理边界。",
+                                              "key_evidence":  [
+                                                                   "S01",
+                                                                   "M01",
+                                                                   "M02",
+                                                                   "C01"
+                                                               ],
+                                              "financial_transmission_mechanism":  "收入确认、回款和营运资本共同决定经营现金流。",
+                                              "attribution":  "company",
+                                              "operating_or_risk_boundary":  "经营现金流覆盖收入的比例不能持续下行。",
+                                              "priority_action":  "按客户和产品拆回款周期。",
+                                              "leading_indicator_and_falsifier":  "若应收周转和经营现金流连续两个报告期改善，则下修现金压力判断。",
+                                              "data_gap":  "缺客户维度回款数据。",
+                                              "management_statement":  "年报经营情况讨论披露了现金流相关事实，本报告将其转化为利润质量验证命题。",
+                                              "statement_verification":  "已用营业收入、经营活动现金流量净额和现金流覆盖收入计算进行验证。"
+                                          },
+                       "evidence_sufficiency":  "sufficient",
+                       "data_gaps":  [
+                                         "客户维度回款数据未披露"
+                                     ],
+                       "boundary":  "经营现金流覆盖收入比例",
+                       "leading_indicators":  [
+                                                  "应收账款周转天数",
+                                                  "经营现金流量净额"
+                                              ],
+                       "falsifier":  "经营现金流连续两个报告期改善",
+                       "priority_action_ids":  [
+                                                   "A01"
+                                               ]
+                   }
+               ],
+    "scenarios":  [
+                      {
+                          "scenario_id":  "SC01",
+                          "management_question":  "回款继续恶化是否改变经营动作？",
+                          "driver":  "应收账款周转天数",
+                          "driver_to_result_rationale":  "回款放慢会占用营运资本并压低经营现金流。",
+                          "input_basis":  "company_history",
+                          "output_type":  "boundary_test",
+                          "action_implication":  "触发客户信用政策复核。",
+                          "limitations":  "缺客户账龄明细，只能做边界测试。"
+                      }
+                  ],
+    "actions":  [
+                    {
+                        "action_id":  "A01",
+                        "related_issue_id":  "I01",
+                        "proposed_action":  "建立重点客户回款周监控。",
+                        "expected_financial_mechanism":  "缩短回款周期，减少营运资本占用。",
+                        "owner_type":  "finance",
+                        "leading_indicator":  "应收账款周转天数",
+                        "warning_threshold_logic":  "超过历史75分位并持续两个报告期触发复核。",
+                        "calibration_data_needed":  "客户账龄、合同账期、历史回款分布",
+                        "risk_of_false_positive_or_negative":  "季节性发货可能导致短期误报。"
+                    }
+                ],
+    "quality":  {
+                    "credibility_score":  9.0,
+                    "insight_score":  8.5,
+                    "decision_value_score":  8.5,
+                    "expression_visual_score":  8.0,
+                    "blocking_failures":  [
+
+                                          ],
+                    "warnings":  [
+                                     "客户维度回款数据未披露"
+                                 ],
+                    "audit_status":  "pass",
+                    "delivery_decision":  "deliver"
+                },
+    "management_statements":  [
+                                  {
+                                      "statement_id":  "ST01",
+                                      "source_id":  "S01",
+                                      "speaker_or_document":  "2025年年度报告经营情况讨论",
+                                      "statement_date":  "2026-04-30",
+                                      "topic":  "现金流与营运资本",
+                                      "original_statement":  "公司披露经营现金流相关财务数据。",
+                                      "normalized_statement":  "经营现金流需要作为利润质量的验证指标。",
+                                      "statement_type":  "fact_explanation",
+                                      "verification_metric_ids":  [
+                                                                      "M01",
+                                                                      "M02"
+                                                                  ],
+                                      "verification_calculation_ids":  [
+                                                                           "C01"
+                                                                       ],
+                                      "verification_result":  "supported",
+                                      "report_usage":  "core_judgment"
+                                  }
+                              ]
+}
