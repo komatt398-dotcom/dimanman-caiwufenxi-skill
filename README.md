@@ -11,7 +11,7 @@
 - 需要来源追溯、指标口径校验、图表质量门禁和审计报告的研究报告
 
 ## 核心思路
-
+<img width="2136" height="1140" alt="image" src="https://github.com/user-attachments/assets/75665a8a-2f8e-47bc-98e0-e0e04260a661" />
 报告默认以最近三年年报为主序列；若有最近一期半年报或季报，则作为单独更新模块，不混入年度趋势。
 
 每个核心判断都要求完成：
@@ -24,8 +24,11 @@ judgment -> evidence -> management_statement -> verification -> mechanism
 这意味着报告不仅回答“数字变了多少”，还要回答：
 
 - 管理层过去怎么解释市场、产品、渠道和风险？
+  <img width="2122" height="898" alt="image" src="https://github.com/user-attachments/assets/7d4ac099-64d4-4127-a4d8-5573a40485a0" />
 - 财务数据是否支持这些说法？
+  <img width="2048" height="700" alt="image" src="https://github.com/user-attachments/assets/288278ae-aa9f-44f7-b75f-601922c4fb85" />
 - 利润是否真正转成现金？
+  <img width="1970" height="950" alt="image" src="https://github.com/user-attachments/assets/7f767e69-3d89-4223-8c57-a4896a8b7cc2" />
 - 增长来自客户、产品、渠道还是价格/周期？
 - 哪个指标会推翻当前判断？
 
